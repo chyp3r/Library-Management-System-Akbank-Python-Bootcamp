@@ -1,4 +1,7 @@
 import library
+import sys
+from PyQt6 import QtWidgets
+import window
 
 lib = library.library()
 
@@ -19,8 +22,11 @@ Q) Quit
     elif value == "3":
         lib.remove_book()
     elif value == "4":
-        #UI MODE HERE
-        pass
+        app = QtWidgets.QApplication(sys.argv)
+        window = window.MainWindow()
+        window.show()
+        app.exec()
+        break
     elif value.lower() == "q":
         break
     else:
