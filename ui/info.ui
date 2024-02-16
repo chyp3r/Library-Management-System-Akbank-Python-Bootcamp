@@ -23,7 +23,14 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>Bilgi</string>
+   <string>Info</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../assets/logo.png</normaloff>../assets/logo.png</iconset>
+  </property>
+  <property name="locale">
+   <locale language="English" country="UnitedStates"/>
   </property>
   <layout class="QFormLayout" name="formLayout">
    <item row="1" column="1">

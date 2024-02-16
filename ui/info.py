@@ -15,6 +15,10 @@ class Ui_Dialog(object):
         Dialog.resize(300, 80)
         Dialog.setMinimumSize(QtCore.QSize(300, 80))
         Dialog.setMaximumSize(QtCore.QSize(300, 80))
+        icon = QtGui.QIcon()
+        icon.addPixmap(QtGui.QPixmap(".\\../assets/logo.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        Dialog.setWindowIcon(icon)
+        Dialog.setLocale(QtCore.QLocale(QtCore.QLocale.Language.English, QtCore.QLocale.Country.UnitedStates))
         self.formLayout = QtWidgets.QFormLayout(Dialog)
         self.formLayout.setObjectName("formLayout")
         self.okButton = QtWidgets.QDialogButtonBox(parent=Dialog)
@@ -38,7 +42,7 @@ class Ui_Dialog(object):
 
     def retranslateUi(self, Dialog):
         _translate = QtCore.QCoreApplication.translate
-        Dialog.setWindowTitle(_translate("Dialog", "Bilgi"))
+        Dialog.setWindowTitle(_translate("Dialog", "Info"))
         self.infolabel.setText(_translate("Dialog", "Aradığınız kitap bulunamadı"))
 
 
