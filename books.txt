@@ -1,0 +1,6 @@
+Denetimsiz Makine Ogrenmesi,Elif Kartal,2023,408
+Veri Madenciligi ve Makine Ogrenmesi,Elif Kartal,2019,392
+R ile Veri MAdenciligi Uygulamalari,Elif Kartal,2016,295
+R ve Python Uygulamalari,Zeki Ozen,2023,408
+Yaratici Drama Bibliyografyasi,Zeki Ozen,2014,104
+isletme Enformatigine Giris,Zeki Ozen,2019,188
